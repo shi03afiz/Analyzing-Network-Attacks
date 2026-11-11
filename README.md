@@ -19,6 +19,17 @@ A malicious actor sends a large number of SYN packets all at once, The web serve
 
  The logs indicate SYN packets from 203.0.113.0:54770 to 192.0.2.1:443 with no final ACK. This means half-open connections. It affects the server by filling its queue, exhausting memory, so it cannot serve real users and website shows timeout.
 
+ ## Screenshots
+
+### Scenario
+![Network Attack Scenario](Network-Attack%20Scenario.png)
+
+### Wireshark Analysis - TCP SYN Flood
+![Wireshark Log 1](Wireshark%20TCP-HTTP%20log-1.png)
+![Wireshark Log 2](Wireshark%20TCP-HTTP%20log-2%20(2).png)
+![Wireshark Log 3](Wireshark%20TCP-HTTP%20log-3.png)
+![Wireshark Log 4](Wireshark%20TCP-HTTP%20log-4.png)
+
 
 
 
