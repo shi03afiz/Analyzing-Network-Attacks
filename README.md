@@ -1,6 +1,6 @@
-Cybersecurity Incident Report
+## Cybersecurity Incident Report
 
- Identifying the type of attack that may have caused this network interruption
+ ## Identifying the type of attack that may have caused this network interruption
 
 One potential explanation for the website's connection timeout error message is: After confirming a large number of TCP SYN requests coming from an unfamiliar IP address (203.0.113.0), the web server appears to be overwhelmed by the volume of incoming traffic and is losing its ability to respond to the abnormally large number of SYN requests. This is a SYN flood DoS attack, which is causing the connection timeout error for legitimate users. I suspect the web server is under DoS attack.
 
